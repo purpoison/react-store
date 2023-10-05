@@ -1,0 +1,30 @@
+.product-item {
+  background-color: var(--secondary-clr);
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+  transform: scale(1);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.product-item:hover {
+  transform: scale(1.1);
+  background-color: rgb(191, 222, 222);
+}
+.product-item img {
+  width: 100%;
+}
+.product-item-title {
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--green);
+}
+.product-item-description {
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+}
