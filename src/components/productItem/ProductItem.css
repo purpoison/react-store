@@ -9,7 +9,7 @@
   align-items: center;
   transform: scale(1);
   transition: all 0.2s ease-in;
-  cursor: pointer;
+  position: relative;
 }
 .product-item:hover {
   transform: scale(1.1);
@@ -21,10 +21,46 @@
 .product-item-title {
   text-transform: capitalize;
   text-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
   color: var(--green);
 }
 .product-item-description {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  height: 4rem;
   font-size: 12px;
   text-align: center;
   font-style: italic;
+  resize: none;
+}
+.edit-icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  color: var(--green);
+  font-size: 2rem;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.edit-icon:hover {
+  color: rgb(20, 49, 49);
+}
+.img-input {
+  background-color: var(--secondary-clr);
+  border: 1px solid var(--green);
+  outline: none;
+}
+.product-item-price {
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  color: var(--green);
+  text-align: center;
+  font-size: 14px;
 }

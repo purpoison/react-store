@@ -11,8 +11,6 @@
 .cart-item:hover {
   background-color: rgb(191, 222, 222);
 }
-/* .amount {
-} */
 .cart-item img {
   width: 5rem;
   height: 5rem;

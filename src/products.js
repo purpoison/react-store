@@ -22,7 +22,7 @@ const products = [
     title: "Xiaomi Redmi Note 2",
     amount: 1,
     description:
-      "Size, 5.5 inches, 82.6 cm2 (~71.5% screen-to-body ratio) ; Resolution, 1080 x 1920 pixels, 16:9 ratio (~403 ppi density) ; OS, Android 5.0 ",
+      "Size, 5.5 inches, 82.6 cm2 (~71.5% screen-to-body ratio) ; Resolution, 1080 x 1920 pixels, 16:9 ratio (~403 ppi density) ",
     price: "699.99",
     img: "https://images2.imgbox.com/4f/3d/WN3GvciF_o.png",
   },
@@ -58,7 +58,7 @@ const products = [
     title: "SAMSUNG Galaxy Z Flip 5",
     amount: 1,
     description:
-      "Cell Phone, Factory Unlocked Android Smartphone, 256GB, Compact, Foldable Design, One-Hand Control, Best Selfies, Full Cover Screen, Hands-Free Use, US Version, 2023, Mint",
+      "Cell Phone, Factory Unlocked Android Smartphone, 256GB, Compact, Foldable Design, One-Hand Control",
     price: "699.99",
     img: "https://www.att.com/scmsassets/global/devices/phones/samsung/samsung-galaxy-z-flip5/carousel/mint-1.png",
   },
